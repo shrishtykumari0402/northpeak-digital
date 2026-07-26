@@ -119,7 +119,7 @@ function Services() {
               w-12 h-12
               flex items-center justify-center
               rounded-xl
-              bg-blue-50
+              bg-blue-100
               text-blue-600
               font-semibold
               mb-5

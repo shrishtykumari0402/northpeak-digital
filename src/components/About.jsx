@@ -105,7 +105,7 @@ function About() {
         {/* SKILLS */}
 
         <div className="
-        bg-blue-50
+        bg-blue-100
         rounded-2xl
         p-8
         ">

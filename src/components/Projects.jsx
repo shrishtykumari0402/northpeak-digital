@@ -111,7 +111,7 @@ function Projects() {
                   <span
                     key={i}
                     className="
-                  bg-blue-50
+                  bg-blue-100
                   text-blue-600
                   px-3
                   py-1

@@ -6,15 +6,11 @@ function Hero() {
 
       <div className="max-w-7xl mx-auto px-5 md:px-6 grid md:grid-cols-2 gap-10 items-center">
 
-
-        {/* LEFT CONTENT */}
-
         <div>
 
           <p className="text-blue-600 font-semibold mb-4 uppercase tracking-[0.28em] text-sm">
             WEB DEVELOPMENT STUDIO
           </p>
-
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-[1.15]">
             We build websites that are{" "}
@@ -24,15 +20,13 @@ function Hero() {
             , and made for users.
           </h1>
 
-
-          <p className="mt-6 text-base md:text-lg text-gray-600 leading-relaxed">
+          <p className="mt-6 text-base md:text-lg text-gray-700 leading-relaxed">
             From responsive websites to modern web applications, we create
             digital experiences that help businesses grow online.
           </p>
 
 
-
-          <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-600">
+          <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-700">
 
             <div className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2">
               <span className="h-2 w-2 rounded-full bg-blue-600"></span>
@@ -46,7 +40,6 @@ function Hero() {
             </div>
 
           </div>
-
 
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -72,7 +65,7 @@ function Hero() {
               className="
               border border-gray-300 bg-white px-7 py-3 rounded-xl
               transition hover:border-blue-300
-              hover:bg-blue-50
+              hover:bg-blue-100
               hover:text-blue-700
               "
             >
@@ -84,25 +77,14 @@ function Hero() {
         </div>
 
 
-
-
-
-        {/* RIGHT CARD */}
-
         <motion.div
           aria-label="NorthPeak website preview"
           className="relative w-full max-w-xl mx-auto"
           initial={{opacity:0,y:20}}
           whileInView={{opacity:1,y:0}}
-          transition={{
-            duration:0.6,
-            ease:"easeOut"
-          }}
-          viewport={{
-            once:true
-          }}
+          transition={{duration:0.6,ease:"easeOut"}}
+          viewport={{once:true}}
         >
-
 
           <div className="
           absolute -right-8 -top-8
@@ -114,7 +96,6 @@ function Hero() {
           </div>
 
 
-
           <div className="
           relative
           bg-gradient-to-br from-blue-600 to-purple-600
@@ -123,15 +104,12 @@ function Hero() {
           shadow-xl
           ">
 
-
-
             <div className="
             overflow-hidden
             rounded-[1.75rem]
             bg-white
             shadow-xl
             ">
-
 
               <div className="
               flex items-center gap-2
@@ -146,9 +124,7 @@ function Hero() {
               </div>
 
 
-
               <div className="p-4 md:p-6">
-
 
                 <div className="flex justify-between items-start">
 
@@ -157,7 +133,7 @@ function Hero() {
                     <p className="
                     text-xs uppercase
                     tracking-[0.3em]
-                    text-slate-600
+                    text-slate-700
                     ">
                       DIGITAL EXPERIENCE
                     </p>
@@ -182,7 +158,7 @@ function Hero() {
                   bg-slate-100
                   px-4 py-2
                   rounded-full
-                  text-slate-600
+                  text-slate-800
                   ">
                     ONLINE
                   </span>
@@ -190,13 +166,9 @@ function Hero() {
                 </div>
 
 
-
-
-                <p className="mt-4 text-sm text-slate-600">
+                <p className="mt-4 text-sm text-slate-700">
                   Modern websites & React applications
                 </p>
-
-
 
 
                 <div className="
@@ -212,7 +184,7 @@ function Hero() {
                   </p>
 
 
-                  <p className="mt-2 text-xs text-slate-500">
+                  <p className="mt-2 text-xs text-slate-700">
                     Responsive interfaces built with React.
                   </p>
 
@@ -225,7 +197,7 @@ function Hero() {
 
                   <div className="
                   rounded-2xl
-                  bg-blue-50
+                  bg-blue-100
                   p-4
                   border border-blue-100
                   ">
@@ -234,12 +206,12 @@ function Hero() {
                       React
                     </p>
 
-                    <p className="text-xs text-slate-500 mt-1">
+
+                    <p className="text-xs text-slate-700 mt-1">
                       Modern Web Applications
                     </p>
 
                   </div>
-
 
 
 
@@ -250,11 +222,12 @@ function Hero() {
                   border border-purple-100
                   ">
 
-                    <p className="text-sm font-semibold text-purple-600">
+                    <p className="text-sm font-semibold text-purple-700">
                       Performance
                     </p>
 
-                    <p className="text-xs text-slate-600 mt-1">
+
+                    <p className="text-xs text-slate-800 mt-1">
                       Fast & Optimized
                     </p>
 
@@ -263,21 +236,15 @@ function Hero() {
 
                 </div>
 
-
               </div>
-
 
             </div>
 
-
           </div>
-
 
         </motion.div>
 
-
       </div>
-
 
     </section>
   );

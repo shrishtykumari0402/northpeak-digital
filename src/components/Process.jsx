@@ -133,7 +133,7 @@ function Process() {
               w-12
               h-12
               rounded-xl
-              bg-blue-50
+              bg-blue-100
               text-blue-600
               flex
               items-center
