@@ -127,9 +127,10 @@ function Footer() {
 
             <p className="text-sm text-gray-500 mt-4">
   Built for{" "}
-  <a 
-    href="https://digitalheroesco.com" 
+  <a
+    href="https://digitalheroesco.com"
     target="_blank"
+    rel="noopener noreferrer"
     className="text-blue-600 hover:underline"
   >
     Digital Heroes Training Task
