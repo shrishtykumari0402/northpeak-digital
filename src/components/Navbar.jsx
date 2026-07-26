@@ -66,7 +66,11 @@ function Navbar() {
             Contact
           </a>
 
-          <a href="#about">About</a>
+         <a href="#about"
+          className="hover:text-blue-600 transition focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
+          >
+               About
+              </a>
 
         </div>
 
