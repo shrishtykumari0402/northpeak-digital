@@ -125,7 +125,16 @@ function Footer() {
               Get in touch through the contact form.
             </p>
 
-
+            <p className="text-sm text-gray-500 mt-4">
+  Built for{" "}
+  <a 
+    href="https://digitalheroesco.com" 
+    target="_blank"
+    className="text-blue-600 hover:underline"
+  >
+    Digital Heroes Training Task
+  </a>
+</p>
           </div>
 
 
