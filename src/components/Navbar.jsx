@@ -66,6 +66,8 @@ function Navbar() {
             Contact
           </a>
 
+          <a href="#about">About</a>
+
         </div>
 
 
